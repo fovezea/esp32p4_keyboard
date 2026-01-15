@@ -1,0 +1,26 @@
+# ESP-IDF
+build/
+sdkconfig
+sdkconfig.old
+managed_components/
+example/
+dependencies.lock
+.cache/
+
+# Compilation outputs
+*.map
+*.elf
+*.bin
+*.hex
+*.uf2
+
+# Python
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
